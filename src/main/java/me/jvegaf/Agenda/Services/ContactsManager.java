@@ -1,16 +1,16 @@
 package me.jvegaf.Agenda.Services;
 
-import me.jvegaf.Agenda.JDBC.DBRepository;
+import me.jvegaf.Agenda.Storage.OLDDBRepository;
 import me.jvegaf.Agenda.Model.Contact;
 
 import java.util.ArrayList;
 
 public class ContactsManager {
 
-    private DBRepository repository;
+    private OLDDBRepository repository;
 
     public ContactsManager() {
-        this.repository = new DBRepository();
+        this.repository = new OLDDBRepository();
     }
 
     public ArrayList<Contact> getAll() {

@@ -1,6 +1,6 @@
 package me.jvegaf.Agenda.Services;
 
-import me.jvegaf.Agenda.JDBC.DBRepository;
+import me.jvegaf.Agenda.Storage.OLDDBRepository;
 import me.jvegaf.Agenda.Model.Contact;
 
 import java.sql.Connection;
@@ -9,16 +9,16 @@ import java.sql.SQLException;
 
 public class AddContactUseCase {
 
-    private DBRepository dbRepository;
+    private OLDDBRepository OLDDBRepository;
 
-    public AddContactUseCase(DBRepository rep) {
-        this.dbRepository = rep;
+    public AddContactUseCase(OLDDBRepository rep) {
+        this.OLDDBRepository = rep;
     }
 
     public void execute(Contact contact){
         String sql = "INSERT INTO contactos (nombre, telefono, correo) VALUES (?,?,?)";
 
-        Connection conn = this.dbRepository.getConnection();
+        Connection conn = this.OLDDBRepository.getConnection();
 
         if (conn!=null){
             try {

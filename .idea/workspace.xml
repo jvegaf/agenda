@@ -6,7 +6,37 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cca0862-5877-4dbf-a5bf-4d14d199e7d2" name="Default Changelist" comment="" />
+    <list default="true" id="9cca0862-5877-4dbf-a5bf-4d14d199e7d2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Storage/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Storage/StorageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/contactosIns.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/agenda/agenda.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/agenda/agenda.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/agenda/agenda/WEB-INF/classes/me/jvegaf/Agenda/JDBC/DBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/agenda/agenda/WEB-INF/classes/me/jvegaf/Agenda/JDBC/DBRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/agenda/agenda/view/contactosIns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/agenda/agenda/view/contactosIns.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/agenda_war_exploded/WEB-INF/classes/me/jvegaf/Agenda/JDBC/DBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/agenda_war_exploded/WEB-INF/classes/me/jvegaf/Agenda/JDBC/DBRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/agenda_war_exploded/view/contactosIns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/agenda_war_exploded/view/contactosIns.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Controller/ContactsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Controller/ContactsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/JDBC/DBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Storage/OLDDBRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Services/AddContactUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Services/AddContactUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Services/ContactsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Services/ContactsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Services/FindContactUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Services/FindContactUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Services/GetAllContacstUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Services/GetAllContacstUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Services/RemoveContactUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Services/RemoveContactUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Services/UpdateContactUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Services/UpdateContactUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/jvegaf/Agenda/Controller/ContactsServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/jvegaf/Agenda/JDBC/DBRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/jvegaf/Agenda/Model/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/jvegaf/Agenda/Services/AddContactUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/jvegaf/Agenda/Services/ContactsManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/jvegaf/Agenda/Services/FindContactUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/jvegaf/Agenda/Services/GetAllContacstUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/jvegaf/Agenda/Services/RemoveContactUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/me/jvegaf/Agenda/Services/UpdateContactUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/view/contactosIns.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/view/contactosIns.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +64,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="CSS File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -59,6 +93,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -83,7 +118,7 @@
       <recent name="me.jvegaf.Agenda.Services" />
     </key>
   </component>
-  <component name="RunManager" selected="Remote.remote debug">
+  <component name="RunManager" selected="Docker.Deployment">
     <configuration default="true" type="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -159,6 +194,10 @@
       <workItem from="1582018524609" duration="917000" />
       <workItem from="1582021314279" duration="4895000" />
       <workItem from="1582028101600" duration="64000" />
+      <workItem from="1582043382402" duration="1664000" />
+      <workItem from="1582104676263" duration="1502000" />
+      <workItem from="1582106372422" duration="115000" />
+      <workItem from="1582106491420" duration="5413000" />
     </task>
     <servers />
   </component>
@@ -214,10 +253,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="722" y="350" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1581881677649" />
-    <state x="552" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1581534357679">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="613" y="135" key="#com.intellij.ide.util.MemberChooser" timestamp="1582107083766">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="552" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1581534357679" />
+    <state x="613" y="135" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1582107083766" />
     <state x="613" y="141" key="#com.intellij.ide.util.MemberChooser/0.0.1600.900@0.0.1600.900" timestamp="1581506156059" />
     <state x="334" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1581696935331">
       <screen x="0" y="0" width="1440" height="900" />
@@ -245,9 +285,10 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="623" y="320" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1600.900@0.0.1600.900" timestamp="1581505852209" />
-    <state x="547" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581506075416">
-      <screen x="0" y="0" width="1600" height="900" />
+    <state x="547" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1582111356933">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="547" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1582111356933" />
     <state x="547" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.900@0.0.1600.900" timestamp="1581506075416" />
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581534298736">
       <screen x="0" y="0" width="1440" height="900" />
@@ -275,29 +316,29 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="466" y="193" key="FileChooserDialogImpl/0.0.1368.872@0.0.1368.872" timestamp="1581967426884" />
-    <state width="1557" height="276" key="GridCell.Tab.0.bottom" timestamp="1582026658507">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1582106687744">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="958" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581701785143" />
-    <state width="1557" height="276" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582026658507" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582106687744" />
     <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581883948605" />
-    <state width="1557" height="276" key="GridCell.Tab.0.center" timestamp="1582026658507">
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1582106687744">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="958" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581701785141" />
-    <state width="1557" height="276" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1582026658507" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1582106687744" />
     <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581883948604" />
-    <state width="1557" height="276" key="GridCell.Tab.0.left" timestamp="1582026658507">
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1582106687743">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="958" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581701785140" />
-    <state width="1557" height="276" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1582026658507" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1582106687743" />
     <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581883948603" />
-    <state width="1557" height="276" key="GridCell.Tab.0.right" timestamp="1582026658507">
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1582106687744">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="958" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581701785142" />
-    <state width="1557" height="276" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1582026658507" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1582106687744" />
     <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581883948605" />
     <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1582026658508">
       <screen x="0" y="0" width="1600" height="860" />
@@ -323,9 +364,11 @@
     <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1582026658508" />
     <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581883948607" />
     <state width="1878" height="375" key="GridCell.Tab.1.right/42.23.1878.1057@42.23.1878.1057" timestamp="1581877121241" />
-    <state x="498" y="203" key="Maven.ArtifactSearchDialog" timestamp="1581866077899">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="302" y="58" width="940" height="723" key="Maven.ArtifactSearchDialog" timestamp="1582106159849">
+      <screen x="0" y="0" width="1600" height="860" />
     </state>
+    <state x="355" y="164" key="Maven.ArtifactSearchDialog/0.0.1368.872@0.0.1368.872" timestamp="1582044131672" />
+    <state x="302" y="58" width="940" height="723" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1582106159849" />
     <state x="498" y="203" key="Maven.ArtifactSearchDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581866077899" />
     <state x="469" y="172" key="SettingsEditor" timestamp="1582016664063">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -353,9 +396,10 @@
     </state>
     <state x="427" y="226" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1600.860@0.0.1600.860" timestamp="1582024970464" />
     <state x="512" y="284" width="1239" height="746" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1080@0.0.1920.1080" timestamp="1581877216935" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1581877605234">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="448" y="198" width="672" height="546" key="search.everywhere.popup" timestamp="1582052191299">
+      <screen x="0" y="0" width="1368" height="872" />
     </state>
+    <state x="448" y="198" width="672" height="546" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1582052191299" />
     <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1581877605234" />
   </component>
   <component name="XDebuggerManager">
@@ -363,12 +407,12 @@
       <breakpoints>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Services/GetAllContacstUseCase.java</url>
-          <line>31</line>
+          <line>30</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/me/jvegaf/Agenda/Controller/ContactsServlet.java</url>
-          <line>41</line>
+          <line>39</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

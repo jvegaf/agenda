@@ -30,7 +30,6 @@ public class ContactsServlet extends HttpServlet {
 		
 		case "list":
 			List<Contact> contacts = cm.getAll();
-
 			if (contacts != null) {
                 request.setAttribute("lista", contacts);
             }
@@ -38,7 +37,6 @@ public class ContactsServlet extends HttpServlet {
 			break;
 			
 		case "add":
-
 			cm.add(
 					request.getParameter("nombre"),
 					Integer.parseInt(request.getParameter("telefono")),
@@ -49,7 +47,6 @@ public class ContactsServlet extends HttpServlet {
 			break;
 		
 		case "find":
-
 			Contact contact = cm.find(
 					Integer.parseInt(request.getParameter("id"))
 			);
@@ -58,27 +55,22 @@ public class ContactsServlet extends HttpServlet {
 				request.setAttribute("contact", contact);
 				url = "contactosUpd.jsp";
 			}
-
 			break;
 			
 		case "update":
-
 			cm.update(
 					Integer.parseInt(request.getParameter("id")),
 					request.getParameter("nombre"),
 					Integer.parseInt("telefono"),
 					request.getParameter("correo")
 			);
-
 			url = "Contactos?action=list";
 			break;
 			
 		case "remove":
-
 			cm.remove(
 					Integer.parseInt(request.getParameter("id"))
 			);
-
             url = "Contactos?action=list";
 			break;
 			

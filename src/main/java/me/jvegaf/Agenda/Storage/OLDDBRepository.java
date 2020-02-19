@@ -1,13 +1,14 @@
-package me.jvegaf.Agenda.JDBC;
+package me.jvegaf.Agenda.Storage;
 
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DBRepository {
-	
-	private final String database;
-    private String message;
+public class OLDDBRepository {
+
+	private final String database = "agenda_db";
+    private final String user = "root";
+    private final String pass = "root";
+
 
     public Connection getConnection() {
         Connection cn = null;
@@ -16,10 +17,10 @@ public class DBRepository {
             Class.forName("com.mysql.jdbc.Driver").newInstance();
             cn = java.sql.DriverManager.getConnection(
                     "jdbc:mysql://db:3306/" + this.database,
-                    "root", "root");
+                    this.user, this.pass);
 
         } catch (SQLException | ClassNotFoundException ex) {
-            setMessage(ex.getMessage());
+            ex.printStackTrace();
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InstantiationException e) {
@@ -28,21 +29,4 @@ public class DBRepository {
 
         return cn;
     }
-
-    public DBRepository() {
-        this.database = "agenda_db";
-    }
-
-    public DBRepository(String database) {
-        this.database = database;
-    }
-
-    public String getMessage() {
-        return message;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
 }

@@ -11,6 +11,9 @@
   <link href="../css/bootstrap-datetimepicker.min.css" rel="stylesheet" type="text/css"/>
   <link href="../icons/estilos.css" rel="stylesheet" type="text/css"/>
   <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+  <script src="../js/jquery.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../js/contactos.js" type="text/javascript"></script>
 </head>
 <body>
 <br/>
@@ -42,7 +45,7 @@
                 <label for="telefono" class="control-label col-md-4">Telefono</label>
                 <div class="col-md-8">
                   <input type="text" class="form-control" name="telefono" id="telefono" value="${contacto.telefono}"
-                         placeholder="Telefono" required="" maxlength="9"/>
+                         placeholder="Telefono" required="{*0-9}" maxlength="9"/>
                 </div>
               </div>
 
@@ -70,13 +73,8 @@
         </div>
       </div>
       <br/>
-      <%-- para mensajes  --%>
-      <div>${mensaje}</div>
     </div>
   </div>
 </div>
-<script src="../js/jquery.js" type="text/javascript"></script>
-<script src="../js/bootstrap.min.js" type="text/javascript"></script>
-<script src="../js/contactos.js" type="text/javascript"></script>
 </body>
 </html>

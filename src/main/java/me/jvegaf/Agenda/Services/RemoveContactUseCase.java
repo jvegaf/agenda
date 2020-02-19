@@ -1,6 +1,6 @@
 package me.jvegaf.Agenda.Services;
 
-import me.jvegaf.Agenda.JDBC.DBRepository;
+import me.jvegaf.Agenda.Storage.OLDDBRepository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -8,16 +8,16 @@ import java.sql.SQLException;
 
 public class RemoveContactUseCase {
 
-    private DBRepository dbRepository;
+    private OLDDBRepository OLDDBRepository;
 
-    public RemoveContactUseCase(DBRepository rep) {
-        this.dbRepository = rep;
+    public RemoveContactUseCase(OLDDBRepository rep) {
+        this.OLDDBRepository = rep;
     }
 
     public void execute(Integer id){
         String sql = "DELETE FROM contactos WHERE id=?";
 
-        Connection conn = this.dbRepository.getConnection();
+        Connection conn = this.OLDDBRepository.getConnection();
         if (conn != null) {
             try {
                 PreparedStatement ps = conn.prepareStatement(sql);

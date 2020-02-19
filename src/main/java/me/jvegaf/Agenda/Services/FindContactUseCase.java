@@ -1,6 +1,6 @@
 package me.jvegaf.Agenda.Services;
 
-import me.jvegaf.Agenda.JDBC.DBRepository;
+import me.jvegaf.Agenda.Storage.OLDDBRepository;
 import me.jvegaf.Agenda.Model.Contact;
 
 import java.sql.Connection;
@@ -10,17 +10,17 @@ import java.sql.SQLException;
 
 public class FindContactUseCase {
 
-    private DBRepository dbRepository;
+    private OLDDBRepository OLDDBRepository;
 
-    public FindContactUseCase(DBRepository rep) {
-        this.dbRepository = rep;
+    public FindContactUseCase(OLDDBRepository rep) {
+        this.OLDDBRepository = rep;
     }
 
     public Contact execute(Integer id){
 
         String sql = "SELECT nombre, telefono, correo FROM contactos where id=?";
         Contact contacto = null;
-        Connection conn = dbRepository.getConnection();
+        Connection conn = OLDDBRepository.getConnection();
 
         if (conn != null){
             try {

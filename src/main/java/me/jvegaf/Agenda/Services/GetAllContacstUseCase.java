@@ -1,6 +1,6 @@
 package me.jvegaf.Agenda.Services;
 
-import me.jvegaf.Agenda.JDBC.DBRepository;
+import me.jvegaf.Agenda.Storage.OLDDBRepository;
 import me.jvegaf.Agenda.Model.Contact;
 
 import java.sql.Connection;
@@ -8,14 +8,13 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.List;
 
 public class GetAllContacstUseCase {
 
-    private DBRepository dbRepository;
+    private OLDDBRepository OLDDBRepository;
 
-    public GetAllContacstUseCase(DBRepository rep) {
-        this.dbRepository = rep;
+    public GetAllContacstUseCase(OLDDBRepository rep) {
+        this.OLDDBRepository = rep;
     }
 
     public ArrayList<Contact> execute(){
@@ -23,7 +22,7 @@ public class GetAllContacstUseCase {
 
         String sql = "SELECT id, nombre, telefono, correo FROM `contactos`";
 
-        Connection cn = dbRepository.getConnection();
+        Connection cn = OLDDBRepository.getConnection();
 
         if (cn != null) {
             try {
